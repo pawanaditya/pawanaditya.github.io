@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Pawan Aditya | Portfolio";
-            $("#favicon").attr("href", "assets/images/dicon.png");
+            $("#favicon").attr("href", "assets/images/icon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
