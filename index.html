@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="portfolio design, portfolio website, personal portfolio" />
     <meta name="description" content="Welcome to Aditya's Portfolio" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Font Awesome -->
@@ -173,99 +174,68 @@
 <section class="work" id="work">
 
   <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects</h2>
-    
-  <div class="projects-container">
+  
+  <div class="projects-grid">
+    <!-- Project 1 -->
     <div class="project">
       <div class="project-image">
-        <img src="./assets/images/fin.png" alt="Project Image 1">
+        <img src="./assets/images/fin.png" alt="FinChat">
       </div>
       <div class="project-description">
         <h3>FinChat (Gen AI-Enhanced Financial ChatBot)</h3>
-        <p>Developed Generative AI-powered chatbots and virtual assistants for personalized financial solutions by fine-tuning ChatGPT-3.5 with proprietary datasets 
-        and integrating Retrieval-Augmented Generation (RAG) using Nvidia NIM and LangChain. Leveraged NLP and deep learning techniques to deliver accurate, 
-        context-aware responses and enhance user interaction.</p>
-        <a href="https://github.com/pawanaditya85/FinChat" class="github-button" target="_blank">View on GitHub</a>
+        <p id="project1-text"></p>
+        <a href="https://github.com/pawanaditya85/FinChat" target="_blank" class="github-button">View on GitHub</a>
       </div>
     </div>
-    </div>
-  <div class="projects-container">
+
+    <!-- Project 2 -->
     <div class="project">
       <div class="project-image">
-        <img src="./assets/images/learn.jpeg" alt="Project Image 1">
+        <img src="./assets/images/learn.jpeg" alt="Learniverse">
       </div>
       <div class="project-description">
-        <h3>Learniverse a Learning Management System</h3>
-        <p>The user developed a learning management system using Java, Spring Boot, and MongoDB, 
-          following Scrum methodology over six sprints. Responsibilities included designing UI wireframes, 
-          UML diagrams, and managing database schema, while integrating the front-end with back-end services. 
-          The project was deployed on AWS with Auto Scaling Groups (ASG) and Elastic Load Balancer (ELB).</p>
-        <a href="https://github.com/pawanaditya85/Learniverse-LMS/tree/main" class="github-button" target="_blank">View on GitHub</a>
+        <h3>Learniverse - Learning Management System</h3>
+        <p id="project2-text"></p>
+        <a href="https://github.com/pawanaditya85/Learniverse-LMS/tree/main" target="_blank" class="github-button">View on GitHub</a>
       </div>
     </div>
 
-    
-
-    <!-- You can repeat the same structure for more projects -->
-  </div>
-  <div class="projects-container">
+    <!-- Project 3 -->
     <div class="project">
       <div class="project-image">
-        <img src="./assets/images/mask.png" alt="Project Image 1">
+        <img src="./assets/images/mask.png" alt="Face Mask Detection">
       </div>
       <div class="project-description">
         <h3>Face Mask Detection Algorithm</h3>
-        <p>detecting whether a person is wearing a mask using digital image processing techniques. 
-          It was developed during the COVID-19 pandemic to help enforce mask-wearing regulations. 
-          The implementation uses MATLAB and the Viola-Jones algorithm to detect facial features like the mouth, 
-          nose, and eyes. Based on the detection of these features, the system determines 
-          if a person is wearing a mask properly. The successful application filters noise from images and detects 
-          facial areas to assess mask compliance.</p>
-        <a href="https://github.com/pawanaditya85/Face_Mask-Detection_Algorithm" class="github-button" target="_blank">View on GitHub</a>
+        <p id="project3-text"></p>
+        <a href="https://github.com/pawanaditya85/Face_Mask-Detection_Algorithm" target="_blank" class="github-button">View on GitHub</a>
       </div>
     </div>
 
+    <!-- Project 4 -->
     <div class="project">
       <div class="project-image">
-        <img src="./assets/images/cov.jpg" alt="Project Image 2">
+        <img src="./assets/images/cov.jpg" alt="Covid Analysis">
       </div>
       <div class="project-description">
-        <h3>Covid 19 Analysis Using R programming</h3>
-        <p>The COVID-19 analysis project aimed to assess the impact of age and gender on COVID-19 fatality 
-          rates using a dataset from Johns Hopkins University. The analysis was conducted using R, 
-          and the dataset contained information on cases, deaths, and recoveries. Key findings showed that older 
-          individuals (average age of 68.5 years for deceased) were more likely to die compared to younger people 
-          (average age of 48.8 years for survivors). Additionally, the analysis revealed that males 
-          had a higher fatality rate (8.4%) compared to females (3.6%). The overall death rate from COVID-19 
-          in the dataset was 5.8%. The project provided insights into the demographic factors influencing COVID-19 
-          mortality.</p>
-        <a href="https://github.com/pawanaditya85/Covid_19_Analysis-Using-R-Programming/tree/main" class="github-button" target="_blank">View on GitHub</a>
+        <h3>COVID-19 Analysis Using R</h3>
+        <p id="project4-text"></p>
+        <a href="https://github.com/pawanaditya85/Covid_19_Analysis-Using-R-Programming/tree/main" target="_blank" class="github-button">View on GitHub</a>
       </div>
     </div>
 
-    <!-- You can repeat the same structure for more projects -->
-
-<div class="project">
+    <!-- Project 5 -->
+    <div class="project">
       <div class="project-image">
-        <img src="./assets/images/road.jpeg" alt="Project Image 2">
+        <img src="./assets/images/road.jpeg" alt="Road Accident Analysis">
       </div>
       <div class="project-description">
-        <h3>Road Accident Analysis Using Data Mining</h3>
-        <p>The user analyzed Addis Ababa's road accident data using data mining techniques, 
-          focusing on data preprocessing and exploratory analysis. 
-          Key findings included peak accidents during rush hours, higher rates for vehicle owners, 
-          and unexpected high accident rates for vehicles last serviced 2-5 years ago. 
-          These insights informed policy decisions for road safety and public awareness campaigns, 
-          with the analysis conducted using Python and data mining methods, 
-          significantly impacting community safety.</p>
-        <a href="https://github.com/pawanaditya85/Road-Accident-analysis" class="github-button" target="_blank">View on GitHub</a>
+        <h3>Road Accident Analysis</h3>
+        <p id="project5-text"></p>
+        <a href="https://github.com/pawanaditya85/Road-Accident-analysis" target="_blank" class="github-button">View on GitHub</a>
       </div>
     </div>
-
-<!-- <div class="viewall"> -->
-  <!-- <a href="/projects" class="btn"><span>View All</span> -->
-    <!-- <i class="fas fa-arrow-right"></i> -->
-</a>
-</div>
+  </div>
 
 </section>
 <!-- work project section ends -->
@@ -482,6 +452,41 @@
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assets/js/script.js"></script>
+<script>
+  // Typing effect for project descriptions
+  const projects = [
+    {
+      id: "project1-text",
+      text: "Developed Generative AI-powered chatbots for personalized financial solutions by fine-tuning ChatGPT-3.5 and integrating RAG using Nvidia NIM and LangChain."
+    },
+    {
+      id: "project2-text",
+      text: "Created a learning management system using Java, Spring Boot, and MongoDB, with features like Auto Scaling and Elastic Load Balancer on AWS."
+    },
+    {
+      id: "project3-text",
+      text: "Developed an algorithm to detect if a person is wearing a mask using MATLAB and the Viola-Jones method during the COVID-19 pandemic."
+    },
+    {
+      id: "project4-text",
+      text: "Analyzed the impact of age and gender on COVID-19 fatality rates using datasets from Johns Hopkins University, gaining valuable insights."
+    },
+    {
+      id: "project5-text",
+      text: "Conducted data mining on road accident data, revealing key insights like peak accident times and high-risk categories for safety measures."
+    }
+  ];
 
+  projects.forEach(project => {
+    new Typed(`#${project.id}`, {
+      strings: [project.text],
+      typeSpeed: 50,
+      backSpeed: 25,
+      startDelay: 300,
+      showCursor: false,
+      loop: false
+    });
+  });
+</script>
 </body>
 </html>
